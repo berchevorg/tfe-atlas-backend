@@ -128,3 +128,5 @@ To github.com:berchevorg/tfe-atlas-backend.git
 - Click on **Confirm merge**
 
 You are ready! Now your repo should look like more or less like mine.
+
+If you go to [Terraform Enterprise Site](https://app.terraform.io) and check the **States** section in your **Workspace**, you will see the uploaded current state file of your project
