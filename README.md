@@ -52,7 +52,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 - Create new workspace in your organization in TFE:
   - Click on **Workspaces**
   - Click on **New Workspace**
-  - Type **Name** (I typed the same as repo name)
+  - Type **Name** (type the same as repo name)
   - For **Source** choose **None**
   - Click **Create Workspace**
   
