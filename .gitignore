@@ -1,0 +1,4 @@
+.terraform/
+georgiman.env
+terraform.tfstate
+terraform.tfstate.backup
