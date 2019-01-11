@@ -100,25 +100,26 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 - Now you can use **git add .** and **git commit -m "add files"** to add these files to your local repo:
 ```
-gberchev@BerchevPC terraform-local-backend (setup) $ git commit -m "add  files"
-[setup 23a0c39] add  files
- 2 files changed, 8 insertions(+)
+gberchev@BerchevPC tfe-atlas-backend (setup) $ git commit -m "add files"
+[setup c52152b] add files
+ 3 files changed, 144 insertions(+), 1 deletion(-)
  create mode 100644 .gitignore
+ rewrite README.md (100%)
  create mode 100644 main.tf
 ```
 - Type: **git push origin setup** in order to upload changes to your github repo.
 ```
-gberchev@BerchevPC terraform-local-backend (setup) $ git push origin setup 
-Counting objects: 4, done.
+gberchev@BerchevPC tfe-atlas-backend (setup) $ git push origin setup
+Counting objects: 5, done.
 Delta compression using up to 8 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (4/4), 460 bytes | 460.00 KiB/s, done.
-Total 4 (delta 0), reused 0 (delta 0)
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.32 KiB | 2.32 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
 remote: 
 remote: Create a pull request for 'setup' on GitHub by visiting:
-remote:      https://github.com/berchev/terraform-local-backend/pull/new/setup
+remote:      https://github.com/berchevorg/tfe-atlas-backend/pull/new/setup
 remote: 
-To github.com:berchev/terraform-local-backend.git
+To github.com:berchevorg/tfe-atlas-backend.git
  * [new branch]      setup -> setup
 ```
 - Now go to github site and click on the green button **compare & pull request**
