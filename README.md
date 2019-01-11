@@ -84,7 +84,7 @@ your_file.env
 terraform.tfstate
 terraform.tfstate.backup
 ```
-- Now directory **.terraform/, terraform.tfstate, terraform.tfstate.backup and your_file.env** file will excluded from the repo. This is a good practice. **terraform.tfstate, terraform.tfstate.backup** may contain sensitive information. **your_file.env** contain sensitive information.
+- Now directory **.terraform/, terraform.tfstate, terraform.tfstate.backup and your_file.env** file will excluded from the repo.  **terraform.tfstate, terraform.tfstate.backup** may contain sensitive information. **your_file.env** contain sensitive information. This is a good practice.
 
 - Type **git status** and if everything is OK, you will see:
 ```
