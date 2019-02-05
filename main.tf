@@ -6,6 +6,6 @@ terraform {
 
 resource "null_resource" "helloWorld" {
   provisioner "local-exec" {
-    command = "echo hello world"
+    command = "echo hello world hahahaha"
   }
 }
